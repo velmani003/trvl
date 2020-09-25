@@ -8,7 +8,6 @@ import Products from './Components/Pages/Products';
 import SignUp from './Components/Pages/SignUp';
 
 
-
 function App() {
   return (
     <>
@@ -20,7 +19,7 @@ function App() {
         <Route path='/Products' component={Products} />
         <Route path='/SignUp' component={SignUp} />
       </Switch>
-      </Router>
+      </Router> 
     </>
   );
 }

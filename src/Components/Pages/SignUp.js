@@ -2,6 +2,7 @@ import React from "react";
 import { Login, Registration } from "../Login";
 import "./SignUp.scss";
 
+
 class SignUp extends React.Component {
   constructor(props) {
     super();
@@ -28,6 +29,7 @@ class SignUp extends React.Component {
   }
 
   render() {
+    
     const { isLogginActive } = this.state;
     const current = isLogginActive ? "Registration" : "Login";
     const currentActive = isLogginActive ? "login" : "registration";
